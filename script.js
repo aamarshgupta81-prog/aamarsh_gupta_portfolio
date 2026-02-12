@@ -19,7 +19,7 @@ const portfolioData = {
             date: "Nov 2025 — Present",
             location: "Ahmedabad, India",
             description: "Perform sustainability analysis for commercial and residential green building projects. Manage documentation and certification lifecycle for LEED, IGBC, GRIHA, and EDGE.",
-            logo: "https://img.sanishtech.com/u/5bb65deb2e14e15889bb62cf0051cb22.png" // Placeholder logo
+            logo: "assets/logos/seed.png" // Placeholder logo
         },
         {
             role: "Technical and Sales Consultant Intern",
@@ -27,7 +27,7 @@ const portfolioData = {
             date: "May 2025 — Oct 2025",
             location: "Prayagraj, India",
             description: "Served as the primary technical consultant for residential solar projects, managing the full lifecycle from site feasibility and financial modeling to installation oversight.",
-            logo: "https://img.sanishtech.com/u/f1719ec977b2a782853afca25ae690ea.png" // Placeholder logo
+            logo: "assets/logos/solarzon.png" // Placeholder logo
         },
         {
             role: "Power and Energy System - Freelance",
@@ -35,7 +35,7 @@ const portfolioData = {
             date: "Aug 2024 — Dec 2024",
             location: "Remote",
             description: "Operated as a freelance solar energy consultant specializing in resilient power systems. Focused on on-grid & hybrid solar-system design, electrical safety compliance, and financial viability analysis.",
-            logo: "https://img.sanishtech.com/u/250bd8345c39a384583118739ef9f660.png" // Placeholder logo
+            logo: "assets/logos/mahi.png" // Placeholder logo
         },
         {
             role: "Energy Analyst Intern",
@@ -43,65 +43,65 @@ const portfolioData = {
             date: "May 2024 — June 2024",
             location: "Solan, India",
             description: "Conducted industrial energy audits and fuel optimization strategies for cement manufacturing units. Focused on thermal efficiency and renewable integration to lower operational costs.",
-            logo: "https://img.sanishtech.com/u/14b0f3f09cbe3c0abf8860106f236586.jpg" // Placeholder logo
+            logo: "assets/logos/ultra.png" // Placeholder logo
         }
     ],
     projects: [
         {
             title: "High-Performance Building Energy & Daylight Sim.",
-            description: "Optimized building envelope performance using iterative simulations. Reduced predicted energy consumption by 32%.",
-            tags: ["Energy Modeling", "Daylight Analysis", "Facade Optimization"],
+            description: "Optimized building envelope performance using iterative simulations. Reduced predicted energy and water consumption.",
+            tags: ["Energy Modeling", "Daylight Analysis", "Facade Optimization", "Feasibility Reporting"],
             status: "Completed",
             image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
         },
         {
             title: "Hybrid Sewage Solar-Hydro Plant",
-            description: "Engineered a hybrid system generating 45 kWh/day using vortex microturbines and rooftop PV. Designed custom 3D sludge separation.",
-            tags: ["Micro-Hydro", "Hybrid Energy", "3D Product Design"],
+            description: "Engineered a hybrid energy system generating 45 kWh/day by coupling vortex-based microturbines with rooftop solar PV at a sewage treatment facility. Designed a custom 3D sludge separation module to ensure continuous turbine operation, optimizing the system for urban scalability and hydraulic efficiency.",
+            tags: ["Micro-Hydro", "Solid–Liquid Separation", "3D Product Design", "Urban Infrastructure"],
             status: "Completed",
-            image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=800&auto=format&fit=crop"
+            image: "assets/logos/sludge.png"
         },
         {
             title: "Sustainable Plastic-walled Classroom",
-            description: "Designed a 25 m² modular classroom using 300+ recycled PVC pipes/bottles. Integrated rainwater harvesting and biogas unit.",
-            tags: ["Circular Economy", "Waste-to-Value", "Fusion 360"],
+            description: "Designed a 25 m² modular classroom using 320+ recycled PVC pipes and bottles to create a thermally regulated 'Bottle-Wall' envelope. Integrated a 1,000 L/day rainwater harvesting system and biogas unit, achieving a 60% lower water and energy footprint compared to conventional concrete structures.",
+            tags: ["Circular Economy", "Waste-to-Value", "Fusion 360", "Integrated Renewable Energy"],
             status: "Completed",
-            image: "https://images.unsplash.com/photo-1542601906990-b4d3fb7d5afa?q=80&w=800&auto=format&fit=crop"
+            image: "assets/logos/class.png"
         },
         {
             title: "Hybrid Solar-Biogas Plant",
-            description: "Designed full-scale hybrid energy system generating 1,020 kWh/day. Utilized ArcGIS for site suitability.",
-            tags: ["Biogas Energy", "ArcGIS", "Feasibility Analysis"],
+            description: "Designed a full-scale hybrid energy system generating 1,929 kWh/day (1,500 Biogas + 429 Solar). Utilized ArcGIS for site suitability analysis and AutoCAD for 3D layout planning, optimizing grid connectivity and reducing carbon emissions by 1,600 kg/day.",
+            tags: ["Biogas Energy", "ArcGIS", "Hybrid Energy", "Plant Design and Operation"],
             status: "Completed",
-            image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=800&auto=format&fit=crop"
+            image: "assets/logos/bio.png"
         },
         {
-            title: "Net-Zero Campus Energy Audit",
-            description: "Comprehensive energy audit framework for educational campuses targeting net-zero emissions through renewable integration.",
-            tags: ["Energy Audit", "Net-Zero", "Campus Planning"],
-            status: "Coming Soon",
-            image: "https://images.unsplash.com/photo-1516937941348-af594546f138?q=80&w=800&auto=format&fit=crop"
+            title: "Residential Rooftop Solar-System",
+            description: "Developed residential rooftop solar PV designs with a focus on shadow analysis and energy yield simulation using PVsyst.",
+            tags: ["Load Analysis", "Shadow Analysis", "Residential Solar System", "PVsyst"],
+            status: "Completed",
+            image: "assets/logos/resi.png"
         },
         {
-            title: "Smart Grid Microgrid Design",
-            description: "Designing an intelligent microgrid system with real-time load balancing and predictive maintenance capabilities.",
-            tags: ["Smart Grid", "IoT", "Load Balancing"],
-            status: "Coming Soon",
-            image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?q=80&w=800&auto=format&fit=crop"
+            title: "Urban Hybrid Solar-Hydro Tank tower",
+            description: "Designed a residential solar–hydro hybrid rooftop system generating ~95 kWh/day through optimized PV layout and in-pipe microturbine integration.",
+            tags: ["Hydro Turbine", "", "Energy Calculation"],
+            status: "Completed",
+            image: "assets/logos/water.png"
         },
         {
-            title: "Carbon Footprint Tracker Platform",
-            description: "Web-based platform for organizations to track, analyze, and offset their carbon emissions with actionable insights.",
-            tags: ["Carbon Tracking", "Web Platform", "Data Analytics"],
-            status: "Coming Soon",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+            title: "Carbon-Capture Algae Bio-Process Rector",
+            description: "Designed and optimized an 80-L urban algae bioreactor for decentralized local deployment, achieving ~104–143 kg annual biomass production with an estimated 177–244 kg CO₂ sequestration per year.",
+            tags: ["Carbon Capture", "Batch-Process Rector", "Urban Planning"],
+            status: "Completed",
+            image: "assets/logos/Alage.png"
         },
         {
-            title: "Green Roof Thermal Performance Study",
-            description: "Research study analyzing the thermal insulation benefits of various green roof configurations in tropical climates.",
-            tags: ["Green Roof", "Thermal Analysis", "Research"],
-            status: "Coming Soon",
-            image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=800&auto=format&fit=crop"
+            title: "Research Analysis of Energy Efficiency of Renewable Energy Generation",
+            description: "Studied solar and wind energy performance by comparing efficiency factors, regional sunlight differences, material types, and basic power generation limits.",
+            tags: ["system Design", "Wind Turbine Efficiency", "Energy Generation"],
+            status: "Completed",
+            image: "assets/logos/energy.png"
         }
     ],
     skills: {
