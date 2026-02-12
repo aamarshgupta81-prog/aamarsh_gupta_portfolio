@@ -56,24 +56,24 @@ const portfolioData = {
         },
         {
             title: "Hybrid Sewage Solar-Hydro Plant",
-            description: "Engineered a hybrid energy system generating 45 kWh/day by coupling vortex-based microturbines with rooftop solar PV at a sewage treatment facility. Designed a custom 3D sludge separation module to ensure continuous turbine operation, optimizing the system for urban scalability and hydraulic efficiency.",
+            description: "Engineered a 45 kWh/day hybrid solar–microturbine system at a sewage facility, integrating a custom 3D sludge separator for continuous and efficient operation.",
             tags: ["Micro-Hydro", "Solid–Liquid Separation", "3D Product Design", "Urban Infrastructure"],
             status: "Completed",
             image: "assets/logos/sludge.png"
         },
         {
             title: "Sustainable Plastic-walled Classroom",
-            description: "Designed a 25 m² modular classroom using 320+ recycled PVC pipes and bottles to create a thermally regulated 'Bottle-Wall' envelope. Integrated a 1,000 L/day rainwater harvesting system and biogas unit, achieving a 60% lower water and energy footprint compared to conventional concrete structures.",
+            description: "Designed a 25 m² modular classroom using 320+ recycled PVC bottles with integrated rainwater harvesting and biogas systems, reducing water and energy use by 60% compared to conventional construction.",
             tags: ["Circular Economy", "Waste-to-Value", "Fusion 360", "Integrated Renewable Energy"],
             status: "Completed",
             image: "assets/logos/class.png"
         },
         {
             title: "Hybrid Solar-Biogas Plant",
-            description: "Designed a full-scale hybrid energy system generating 1,929 kWh/day (1,500 Biogas + 429 Solar). Utilized ArcGIS for site suitability analysis and AutoCAD for 3D layout planning, optimizing grid connectivity and reducing carbon emissions by 1,600 kg/day.",
+            description: "Designed a full-scale hybrid biogas–solar system generating 1,929 kWh/day, using ArcGIS and AutoCAD to optimize layout, grid integration, and carbon reduction (~1,600 kg/day).",
             tags: ["Biogas Energy", "ArcGIS", "Hybrid Energy", "Plant Design and Operation"],
             status: "Completed",
-            image: "assets/logos/bio.png"
+            image: "assets/logos/biogas.png"
         },
         {
             title: "Residential Rooftop Solar-System",
@@ -85,7 +85,7 @@ const portfolioData = {
         {
             title: "Urban Hybrid Solar-Hydro Tank tower",
             description: "Designed a residential solar–hydro hybrid rooftop system generating ~95 kWh/day through optimized PV layout and in-pipe microturbine integration.",
-            tags: ["Hydro Turbine", "", "Energy Calculation"],
+            tags: ["Hydro Turbine", "Energy Conservation", "Energy Calculation"],
             status: "Completed",
             image: "assets/logos/water.png"
         },
@@ -94,7 +94,7 @@ const portfolioData = {
             description: "Designed and optimized an 80-L urban algae bioreactor for decentralized local deployment, achieving ~104–143 kg annual biomass production with an estimated 177–244 kg CO₂ sequestration per year.",
             tags: ["Carbon Capture", "Batch-Process Rector", "Urban Planning"],
             status: "Completed",
-            image: "assets/logos/Alage.png"
+            image: "assets/logos/Algae.png"
         },
         {
             title: "Research Analysis of Energy Efficiency of Renewable Energy Generation",
