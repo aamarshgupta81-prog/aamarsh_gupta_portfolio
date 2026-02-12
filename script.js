@@ -109,14 +109,14 @@ const portfolioData = {
             "Green Building Standards (LEED, IGBC, GRIHA)",
             "Energy Modeling & Simulation",
             "Environmental Impact Assessment",
-            "Solar PV System Design",
+            "Carbon-Capture Calculation",
             "Hybrid Energy Systems",
             "Building Envelope Optimization",
             "ASHRAE & ISO Compliance",
-            "Renewable Energy Feasibility"
+            "Feasibility Reporting"
         ],
         software: [
-            "AutoCAD", "SketchUp", "Fusion 360", "ArcGIS", "DesignBuilder", "PVsyst", "Microsoft Office Suite", "MATLAB"
+            "AutoCAD", "SketchUp", "Fusion 360", "ArcGIS", "DesignBuilder", "PVsyst", "Microsoft Office Suite", "LightStanza"
         ],
         soft: [
             "Project Management", "Technical Writing", "Client Consultation", "Team Collaboration", "Research & Analysis", "Problem Solving"
@@ -140,10 +140,8 @@ const portfolioData = {
         ]
     },
     cocurricular: [
-        { title: "Solar Awareness Drive Volunteer", description: "Organized community drives to promote solar energy adoption in rural areas.", icon: "ri-sun-line" },
-        { title: "University Eco-Club Member", description: "Active member contributing to campus sustainability initiatives and green events.", icon: "ri-group-line" },
-        { title: "Tree Plantation Campaign", description: "Participated in large-scale tree plantation drives for urban reforestation.", icon: "ri-plant-fill" },
-        { title: "Sustainability Workshop Speaker", description: "Delivered workshops on sustainable living practices for student communities.", icon: "ri-mic-line" }
+        { title: "Pitch Your Idea-Shark Tank", description: "Won First place in the “Pitch Your Idea” event on new revolutionized designs of Laptops", icon: "ri-sun-line" },
+        { title: "One India", description: "Represented the State of Bihar with its tradition, Traditional Architecture, and History", icon: "ri-group-line" },
     ],
     interests: [
         { title: "Fiction Writing", description: "Drafting a Fiction stories exploring themes of society and social ecology. Currently working on world-building and character arcs.", icon: "ri-quill-pen-line", img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=400&auto=format&fit=crop" },
