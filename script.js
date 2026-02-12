@@ -4,8 +4,8 @@
 const portfolioData = {
     personal: {
         name: "Aamarsh Gupta",
-        role: "Sustainability Professional",
-        bio: "Sustainability Professional focused on green building design, renewable energy systems, and environmental impact assessment. Passionate about bridging the gap between modern infrastructure and ecological preservation.",
+        role: "Assistant Sustainability Analyst",
+        bio: "Hello Visitor! I am a Sustainability Professional bridging the gap between modern-day projects and the environment. My work focuses on Green Building Design and Environmental Impact Assessment, where I utilize advanced simulation software to align projects with rigorous standards like LEED, IGBC, GRIHA, ASHRAE, and ISO. Beyond the building envelope, I am deeply invested in renewable energy systems, applying my background in hybrid energy grids to reduce carbon footprints. I am a lifelong learner and problem-solver, constantly honing my skills to bring data-driven insights that create spaces that inspire.",
         location: "Prayagraj, India",
         email: "aamarshgupta81@gmail.com",
         phone: "+91 95699 46290",
@@ -18,32 +18,32 @@ const portfolioData = {
             company: "SEED Green Solution LLP",
             date: "Nov 2025 — Present",
             location: "Ahmedabad, India",
-            description: "Lead sustainability analysis for commercial and residential green building projects. Manage documentation and certification lifecycle for LEED, IGBC, GRIHA, and EDGE.",
-            logo: "https://ui-avatars.com/api/?name=SEED&background=2ecc71&color=fff&size=128" // Placeholder logo
+            description: "Perform sustainability analysis for commercial and residential green building projects. Manage documentation and certification lifecycle for LEED, IGBC, GRIHA, and EDGE.",
+            logo: "https://img.sanishtech.com/u/5bb65deb2e14e15889bb62cf0051cb22.png" // Placeholder logo
         },
         {
             role: "Technical and Sales Consultant Intern",
             company: "SolarZon Energy",
             date: "May 2025 — Oct 2025",
             location: "Prayagraj, India",
-            description: "Primary technical consultant for residential solar projects. Managed full lifecycle from site feasibility to installation oversight.",
-            logo: "https://ui-avatars.com/api/?name=SolarZon&background=eebc51&color=000&size=128" // Placeholder logo
+            description: "Served as the primary technical consultant for residential solar projects, managing the full lifecycle from site feasibility and financial modeling to installation oversight.",
+            logo: "https://img.sanishtech.com/u/f1719ec977b2a782853afca25ae690ea.png" // Placeholder logo
         },
         {
             role: "Power and Energy System - Freelance",
             company: "Mahi Enterprises",
             date: "Aug 2024 — Dec 2024",
             location: "Remote",
-            description: "Freelance consultant for resilient power systems. Engineered hybrid solar-battery systems and validated electrical safety (LPS/Earthing).",
-            logo: "https://ui-avatars.com/api/?name=Mahi&background=3498db&color=fff&size=128" // Placeholder logo
+            description: "Operated as a freelance solar energy consultant specializing in resilient power systems. Focused on on-grid & hybrid solar-system design, electrical safety compliance, and financial viability analysis.",
+            logo: "https://img.sanishtech.com/u/250bd8345c39a384583118739ef9f660.png" // Placeholder logo
         },
         {
             role: "Energy Analyst Intern",
             company: "UltraTech Cement Ltd.",
             date: "May 2024 — June 2024",
             location: "Solan, India",
-            description: "Conducted industrial energy audits and fuel optimization strategies. Achieved 16% reduction in fuel costs via blend re-engineering.",
-            logo: "https://ui-avatars.com/api/?name=UltraTech&background=e74c3c&color=fff&size=128" // Placeholder logo
+            description: "Conducted industrial energy audits and fuel optimization strategies for cement manufacturing units. Focused on thermal efficiency and renewable integration to lower operational costs.",
+            logo: "https://img.sanishtech.com/u/14b0f3f09cbe3c0abf8860106f236586.jpg" // Placeholder logo
         }
     ],
     projects: [
