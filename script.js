@@ -130,13 +130,13 @@ const portfolioData = {
             { name: "B.Tech Chemical Engineering", issuer: "Lovely Professional University", year: "2022-2026" }
         ],
         courses: [
-            { name: "Sustainable Architecture", issuer: "IIT Roorkee", year: "2024" },
-            { name: "Energy Supply Systems", issuer: "TU Delft", year: "2024" },
-            { name: "Solar Energy for Engineers", issuer: "Coursera", year: "2023" }
+            { name: "Sustainable Architecture: Energy Efficiency & Quality", issuer: "Alison/IIT Roorkee", year: "2024" },
+            { name: "Energy Supply System for Buildings", issuer: "EDx/Delft University of Technology", year: "2024" },
+            { name: "Solar Energy for Engineer Architects and Code Inspector", issuer: "Coursera/University at Buffalo", year: "2023" }
         ],
         other: [
-            { name: "Green Building Concepts", issuer: "PMI", year: "2024" },
-            { name: "Waste-to-Energy", issuer: "IIT Roorkee", year: "2023" }
+            { name: "Green Building Concepts Foundation", issuer: "Project Management Institute", year: "2024" },
+            { name: "Waste-to-Energy Conservation", issuer: "NPTEL/IIT Roorkee", year: "2023" }
         ]
     },
     cocurricular: [
@@ -146,8 +146,8 @@ const portfolioData = {
         { title: "Sustainability Workshop Speaker", description: "Delivered workshops on sustainable living practices for student communities.", icon: "ri-mic-line" }
     ],
     interests: [
-        { title: "Fiction Writing", description: "Drafting a Solarpunk novel exploring themes of renewable utopias and social ecology. Currently working on world-building and character arcs.", icon: "ri-quill-pen-line", img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=400&auto=format&fit=crop" },
-        { title: "Indie Game Dev", description: "Developing a pixel-art environmental simulation game in Unity. Focus on realistic weather systems and sustainable resource management mechanics.", icon: "ri-gamepad-line", img: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=400&auto=format&fit=crop" }
+        { title: "Fiction Writing", description: "Drafting a Fiction stories exploring themes of society and social ecology. Currently working on world-building and character arcs.", icon: "ri-quill-pen-line", img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=400&auto=format&fit=crop" },
+        { title: "Indie Game Dev", description: "Developing a Isomtric pixel-art Action RPG game in Unity. Focus on realistic Combat, Game Mechanics systems.", icon: "ri-gamepad-line", img: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=400&auto=format&fit=crop" }
     ]
 };
 
