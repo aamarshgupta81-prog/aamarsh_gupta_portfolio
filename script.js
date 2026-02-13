@@ -10,7 +10,7 @@ const portfolioData = {
         email: "aamarshgupta81@gmail.com",
         phone: "+91 95699 46290",
         linkedin: "https://www.linkedin.com/in/aamarsh-gupta/",
-        resume: "resume.pdf"
+        resume: "assets/logos/resume.pdf"
     },
     experience: [
         {
@@ -52,56 +52,64 @@ const portfolioData = {
             description: "Optimized building envelope performance using iterative simulations. Reduced predicted energy and water consumption.",
             tags: ["Energy Modeling", "Daylight Analysis", "Facade Optimization", "Feasibility Reporting"],
             status: "Completed",
-            image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
+            image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop",
+            link: ""
         },
         {
             title: "Hybrid Sewage Solar-Hydro Plant",
             description: "Engineered a 45 kWh/day hybrid solar–microturbine system at a sewage facility, integrating a custom 3D sludge separator for continuous and efficient operation.",
             tags: ["Micro-Hydro", "Solid–Liquid Separation", "3D Product Design", "Urban Infrastructure"],
             status: "Completed",
-            image: "assets/logos/sludge.png"
+            image: "assets/logos/sludge.png",
+            link: "https://drive.google.com/drive/folders/1pc6ZkXX6rMrA_mfFrb4GFdzK3oMMiCUC?usp=sharing"
         },
         {
             title: "Sustainable Plastic-walled Classroom",
             description: "Designed a 25 m² modular classroom using 320+ recycled PVC bottles with integrated rainwater harvesting and biogas systems, reducing water and energy use by 60% compared to conventional construction.",
             tags: ["Circular Economy", "Waste-to-Value", "Fusion 360", "Integrated Renewable Energy"],
             status: "Completed",
-            image: "assets/logos/class.png"
+            image: "assets/logos/class.png",
+            link: "https://drive.google.com/drive/folders/1xjPGsKNnI4jMypXEh1oAg-gGDBTY6NrD?usp=sharing"
         },
         {
             title: "Hybrid Solar-Biogas Plant",
             description: "Designed a full-scale hybrid biogas–solar system generating 1,929 kWh/day, using ArcGIS and AutoCAD to optimize layout, grid integration, and carbon reduction (~1,600 kg/day).",
             tags: ["Biogas Energy", "ArcGIS", "Hybrid Energy", "Plant Design and Operation"],
             status: "Completed",
-            image: "assets/logos/biogas.png"
+            image: "assets/logos/biogas.png",
+            link: "https://drive.google.com/drive/folders/1b_F5mDOv4SjUJENMkDY_8J7ytggcNNOn?usp=sharing"
         },
         {
             title: "Residential Rooftop Solar-System",
             description: "Developed residential rooftop solar PV designs with a focus on shadow analysis and energy yield simulation using PVsyst.",
             tags: ["Load Analysis", "Shadow Analysis", "Residential Solar System", "PVsyst"],
             status: "Completed",
-            image: "assets/logos/resi.png"
+            image: "assets/logos/resi.png",
+            link: "https://drive.google.com/drive/folders/14vdHyI0MH71B_aDJb6Pyduik9KGLhxUd?usp=sharing"
         },
         {
             title: "Urban Hybrid Solar-Hydro Tank tower",
             description: "Designed a residential solar–hydro hybrid rooftop system generating ~95 kWh/day through optimized PV layout and in-pipe microturbine integration.",
             tags: ["Hydro Turbine", "Energy Conservation", "Energy Calculation"],
             status: "Completed",
-            image: "assets/logos/water.png"
+            image: "assets/logos/water.png",
+            link: "https://drive.google.com/drive/folders/1Bn5kX2ZgqpzQYfY8veXyDnZrJ9iavFdV?usp=sharing"
         },
         {
             title: "Carbon-Capture Algae Bio-Process Rector",
             description: "Designed and optimized an 80-L urban algae bioreactor for decentralized local deployment, achieving ~104–143 kg annual biomass production with an estimated 177–244 kg CO₂ sequestration per year.",
             tags: ["Carbon Capture", "Batch-Process Rector", "Urban Planning"],
             status: "Completed",
-            image: "assets/logos/Algae.png"
+            image: "assets/logos/Algae.png",
+            link: "https://drive.google.com/drive/folders/1eNe-rMFm6RbAyAJ2l7n48IDrk0OUm6TV?usp=sharing"
         },
         {
             title: "Research Analysis of Energy Efficiency of Renewable Energy Generation",
             description: "Studied solar and wind energy performance by comparing efficiency factors, regional sunlight differences, material types, and basic power generation limits.",
             tags: ["system Design", "Wind Turbine Efficiency", "Energy Generation"],
             status: "Completed",
-            image: "assets/logos/energy.png"
+            image: "assets/logos/energy.png",
+            link: "https://drive.google.com/file/d/1z6dLkjsDInse4_knZaRpuuEYHqv5cI5E/view?usp=sharing"
         }
     ],
     skills: {
@@ -229,8 +237,9 @@ function renderProjects() {
 
         // Redirect Logic
         card.addEventListener('click', () => {
-            const link = isComingSoon ? '#projects' : portfolioData.personal.linkedin;
-            if (!isComingSoon) window.open(link, '_blank');
+            if (!isComingSoon && project.link) {
+                window.open(project.link, '_blank');
+            }
         });
 
         // Project Image
